@@ -1,0 +1,9 @@
+package com.qa.bank;
+
+public class CreditAccount {
+
+	public CreditAccount(BankAccount accountHandler) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

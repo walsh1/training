@@ -1,0 +1,15 @@
+package com.qa.bank;
+
+public class CreditAccount {
+private BankAccount bankAccount;
+	public CreditAccount(BankAccount accountHandler) {
+		// TODO Auto-generated constructor stub
+		this.bankAccount  = accountHandler;
+	}
+//@Override
+	public double getBalance() {
+		// TODO Auto-generated method stub
+		return bankAccount.getBalance();
+	}
+
+}
